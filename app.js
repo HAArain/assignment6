@@ -256,21 +256,50 @@
 //     document.write(RandomNumber);
 // }
 
+///////////////////////////////////TASK 05///////////////////////////
+
+// var a= Math.ceil( Math.random()*2);
+// if(a==1){
+
+//     document.write("tail");
+
+// }
+// else if(a==2){
+//     document.write("head");
+// }
+// else{
+
+//     document.write(a)
+// }
+
+///////////////////////////////////TASK 06///////////////////////////
+
+// var a = Math.ceil(Math.random()*100);
+// document.write(a);
+
+///////////////////////////////////TASK 07///////////////////////////
+
+// var a = prompt("");
+// var b= parseInt(a);
+// document.write(b);
+
+///////////////////////////////////TASK 08///////////////////////////
+
+// var a = 7;
+
+// var b = prompt("enter a number");
+
+// if(a==b){
+
+//     alert("congrts")
+// }
+// else{
+
+//     alert("try agin");
+// }
 
 
-var n = Number(prompt("How many times do you want to flip the coin?")); // Gets the number of times to flip the coin.
-var heads = 0, tails = 0; // Initiates the heads and tails variables.
-for(var i = 0; i < n; i++) {
 
-    // Uses the Math.random function to generate a random number.
-    // If the rand num is less than 1/2, it is classified as heads.
-    // Otherwise, the num is above 1/2 and is classified as tails.
-    if(Math.random() < 2) {
-        heads++;
-    } else {
-        tails++;
-    }
-}
 
 
     
