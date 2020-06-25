@@ -299,9 +299,151 @@
 // }
 
 
+///////////////////////////////////CHAPTER 31-34///////////////////////////
+
+///////////////////////////////////TASK 01///////////////////////////
+
+// var date = new Date();
 
 
 
-    
+//////////////////////////////////TASK 02///////////////////////////
+// var date = new Date();
+// var a = ["january","febuary","march","april","may","june","july","august","september","october","november","december"];
+
+// document.write(" current month " +a[date.getMonth()] );
+
+//////////////////////////////////TASK 03///////////////////////////
 
 
+
+// var date = new Date();
+
+// var b =date.toString();
+
+// console.log(b);
+
+// var c = b.slice(0,3);
+
+// document.write("today is " + c);
+
+
+
+//////////////////////////////////TASK 04///////////////////////////
+
+// var a  = ['saturday','sunday','mon','tue','wed','thu','fri'];
+
+
+// document.write("it is fun day " + " " + a[0]  +  " "  +  a[1]);
+
+
+
+//////////////////////////////////TASK 05///////////////////////////
+
+// var date = new Date();
+
+// if(date==15){
+
+//     document.write("first fifteen days of the month");
+// }
+// else{
+
+//     document.write("last sixteen days of the month");
+// }
+
+
+//////////////////////////////////TASK 06///////////////////////////
+
+// var date = new Date();
+// document.write("the cuurent date is" + date + "<br>");
+// var milli = date.getTime();
+// document.write("ellapse milisecond mid night  since january 1 19970 " + milli + "<br>");
+
+// var secon = milli*60;
+// document.write("ellapse sexcon mid night  since january 1 19970 " +  minute + "<br>");
+
+// var minute = sec*60;
+// document.write("ellapse minute mid night  since january 1 19970 " +  minute + "<br>");
+
+//////////////////////////////////TASK 07///////////////////////////
+
+// var noon = new Date();
+// if(noon.getHours() > 12 ){
+
+//     document.write(" its is pm")
+// }
+// else{
+
+//     document.write("its AM ");
+// }
+
+//////////////////////////////////TASK 08///////////////////////////
+
+// var d = new Date("31-DEC-2020");
+// alert(d);
+
+
+//////////////////////////////////TASK 09///////////////////////////
+
+// var strt = new Date("18-june-2015");
+// var end = new Date();
+// var  diff = 0;
+// var days = 1000 * 60 * 60 * 24;
+
+// diff = end-strt;
+// document.write(Math.floor(diff/days));
+
+
+
+//////////////////////////////////TASK 10///////////////////////////
+
+
+
+
+// var d = new Date("5-DEC-2015").getTime()/1000;
+// document.write(d);
+
+
+//////////////////////////////////TASK 11///////////////////////////
+
+// var d = new Date();
+
+// document.write("cuurent time" +d + "<br>");
+// d.setHours(d.getHours()-1);
+
+// document.write(" previous houur" +d)
+
+
+//////////////////////////////////TASK 12///////////////////////////
+ 
+// var d = new Date();
+// document.write("cuurent date" + d  + "<br>");
+
+// d.setFullYear(d.getFullYear()-100);
+
+// document.write("prev time" + d);
+
+//////////////////////////////////TASK 13///////////////////////////
+
+// var a = +prompt("enter your age");
+// var b=new Date().getFullYear();
+// var c = b-a;
+// document.write("your date of birth is" + c);
+
+//////////////////////////////////TASK 14///////////////////////////
+var a = ["january","febuary","march","april","may","june","july","august","september","october","november","december"];
+var customer_name = "hamza ahmed";
+var d = new Date();
+var n = a[d.getMonth()];
+var unit = 410;
+var charge = 16;
+var net_amount = unit*charge;
+var latecharges = 350;
+var grossamount = latecharges+net_amount;
+
+document.write("customer name " + customer_name + "<br>s" );
+document.write("current month" + n + "<br>");
+document.write("unit" + unit + "<br>");
+document.write("net amount" + net_amount + "<br>");
+document.write("late charges" + latecharges + "<br>");
+document.write("gross amount" + grossamount)
