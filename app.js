@@ -415,7 +415,7 @@
 
 
 //////////////////////////////////TASK 12///////////////////////////
- 
+
 // var d = new Date();
 // document.write("cuurent date" + d  + "<br>");
 
@@ -431,19 +431,198 @@
 // document.write("your date of birth is" + c);
 
 //////////////////////////////////TASK 14///////////////////////////
-var a = ["january","febuary","march","april","may","june","july","august","september","october","november","december"];
-var customer_name = "hamza ahmed";
-var d = new Date();
-var n = a[d.getMonth()];
-var unit = 410;
-var charge = 16;
-var net_amount = unit*charge;
-var latecharges = 350;
-var grossamount = latecharges+net_amount;
+// var a = ["january","febuary","march","april","may","june","july","august","september","october","november","december"];
+// var customer_name = "hamza ahmed";
+// var d = new Date();
+// var n = a[d.getMonth()];
+// var unit = 410;
+// var charge = 16;
+// var net_amount = unit*charge;
+// var latecharges = 350;
+// var grossamount = latecharges+net_amount;
 
-document.write("customer name " + customer_name + "<br>s" );
-document.write("current month" + n + "<br>");
-document.write("unit" + unit + "<br>");
-document.write("net amount" + net_amount + "<br>");
-document.write("late charges" + latecharges + "<br>");
-document.write("gross amount" + grossamount)
+// document.write("customer name " + customer_name + "<br>s" );
+// document.write("current month" + n + "<br>");
+// document.write("unit" + unit + "<br>");
+// document.write("net amount" + net_amount + "<br>");
+// document.write("late charges" + latecharges + "<br>");
+// document.write("gross amount" + grossamount)\
+
+
+//////////////////////////////////TASK 35-38///////////////////////////
+
+//////////////////////////////TASK 01 /////////////////////////////////
+
+// function date(){
+
+// var d = new Date();
+
+// document.write(d);
+
+// }
+
+// date();
+
+//////////////////////////////TASK 02 /////////////////////////////////
+
+
+// function greet(){
+
+// var firstname = prompt("");
+// var lastname = prompt("");
+
+// document.write("assalam alikum " + firstname + lastname ); 
+
+// }
+
+// greet()
+
+
+//////////////////////////////TASK 03 /////////////////////////////////
+
+
+// function add(){
+
+//     var a = +prompt("");
+//     var b= +prompt("");
+//      var c = a+b;
+//      document.write("the sum of tow num " + c);
+
+
+// }
+
+// add();
+
+//////////////////////////////TASK 04/////////////////////////////////
+
+
+// function calc(num1,num2,opr){
+
+//   num1 = +prompt("enter first number");
+//   opr  = prompt("enter opertor");
+//   num2 = +prompt("enter second number");
+
+//   if(opr == "+"){
+
+//     document.write(num1 + num2);
+
+//   }
+//   else if(opr == "-"){
+
+//     document.write(num1 - num2);
+
+//   }
+//   else if(opr == "*"){
+
+//     document.write(num1 * num2);
+
+//   }
+//   else if(opr == "/"){
+
+//     document.write(num1 / num2);
+
+//   }
+//   else if(opr == "%"){
+
+//     document.write(num1 % num2);
+
+//   }
+//   else{
+
+//     document.write("error");
+
+//   }
+
+
+
+// }
+
+// calc();
+
+
+//////////////////////////////TASK 05/////////////////////////////////
+
+
+// function square(a){
+
+//         document.write("the square of " + a + "<br>" + a*a)
+
+// }
+
+// square(3);
+
+//////////////////////////////TASK 06////////////////////////////
+
+
+// function hamza(n){
+
+    
+//     var k = 1;
+
+//         for(i=1; i<=n; i++){
+    
+//             k = (i*k);
+//           }
+        
+//           document.write(n + " factorial " + k)
+    
+// }
+
+// hamza(3);
+
+//////////////////////////////TASK 07////////////////////////////
+
+// function counting(start,end){
+//     for(var i = start; i <= end; i++ ){
+//         document.write(i + " ");
+//     }
+// }
+// var start = +prompt("Enter start number for counting:");
+// var end = +prompt("Enter end number for counting:");
+// counting(start,end);
+
+
+
+// function calcHypotenus(base,  per) {
+
+//     return Math.sqrt(base*base  + per*per) ;
+// }
+
+// calcHypotenus(2,3);
+
+
+//////////////////////////////TASK 08////////////////////////////
+
+
+// Math.hypot = Math.hypot || function(x, y){ return Math.sqrt(x*x + y*y) }
+
+// var x = 3, y = 4;
+
+// document.write(Math.hypot(x, y));
+
+//////////////////////////////TASK 09////////////////////////////
+
+
+// function area(height,width){
+
+//  var area = height * width;
+
+//  document.write(area);
+
+
+// }
+
+
+// area(4,5);
+
+//////////////////////////////TASK 10////////////////////////////
+// function isPalindrome(s) {
+    
+//     return s == s.split("").reverse().join("");
+// }
+
+// alert(isPalindrome("MADAM")); 
+
+//////////////////////////////TASK 11////////////////////////////
+
+
